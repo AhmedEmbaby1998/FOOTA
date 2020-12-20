@@ -1,0 +1,48 @@
+﻿1-
+URL[POST]
+khaledmohsen1400-001-site1.gtempurl.com/api/addUser/{USER NAME}
+==from header send the admin's password 
+adminPassword =>15304560am
+Craete user name .
+if the user name is not unique ,then a badrequerst :400 will be sent
+==Response 
+{
+    "id": 1,
+    "userName": "embaby",
+    "apiKey": "37635570"
+}
+
+--------------------------------------------------------------------------------
+2-
+URL[GET]
+khaledmohsen1400-001-site1.gtempurl.com/api/hasUpdate/{user name}/{apiKey}
+OUTPUT:
+y if it has update or  n if it has not .
+-------------------------------------------------------------------------------
+{
+    "id": 3,
+    "userName": "embaby15",
+    "apiKey": "yexC5u4eB0"
+}
+https://localhost:44365/api/receive/1/20/embaby/688509924
+
+{
+    "id": 7,
+    "userName": "test",
+    "updateCount": 0,
+    "password": "VcuP2L7e0Q",
+    "readings": null
+}
+
+
+
+
+
+
+{
+    "id": 2,
+    "userName": "khaled",
+    "updateCount": 0,
+    "password": "O90SAAxaMK",
+    "readings": null
+}
